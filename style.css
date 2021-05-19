@@ -9,21 +9,31 @@
 
 }
 
-img{
-	width:100%;
+.bttn{
+	left:60%;
+	top:28%;
+	background-color:#023eab;
+	color:white;
+	font-weight:bold;
+	font-size:2rem; 
+	padding:0.5rem 1rem 0.5rem 1rem;
+	border-radius:1rem;
 }
+
+.bttn:hover{
+	text-decoration:none;
+	color:white;
+}
+
 
 
 
 footer{
    background-color:#023eab;
-   margin:0;
-   padding:0;
-
-  
+   padding:2rem;
+   padding-bottom:0;
+   
 }
-
-
 
 .address,.contact span{
 	font-size:1.3rem;
@@ -49,7 +59,8 @@ footer{
 	padding:0.5rem;
 	border-top-right-radius:0.4rem;
 	border-top-left-radius:0.4rem;
-	
+	left:35vw;
+	top:11.5vh;
 	}
 
 .social-icons span i{
@@ -57,7 +68,11 @@ footer{
 	font-size:1rem; 
 	margin:0rem 1rem;
 }
-  
+ 
+img{
+	width:100%;
+}
+
 
 .address,.contact span{
 	font-size:1.3rem;
@@ -93,10 +108,29 @@ footer{
 
 
 @media (max-width: 600px){
-	
+	.bttn{
+	left:60%;
+	top:20%;
+	font-size:1rem; 
+	padding:0.5rem 1rem 0.5rem 1rem;
+	border-radius:1rem;
 }
 
 }
+
+
+@media (max-width: 700px){
+
+     .bttn{
+	left:60%;
+	top:20%;
+	font-size:0.8rem; 
+	padding:0.5rem 1rem 0.5rem 1rem;
+	border-radius:1rem;
+}
+
+}
+
 
 
 
