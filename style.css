@@ -13,18 +13,17 @@ img{
 	width:100%;
 }
 
-button{
-	left:70%;
-	top:30%;
-	font-weight:bold !important;
-	background-color: #023eab;
 
-}
 
 footer{
    background-color:#023eab;
-   padding:2rem;
+   margin:0;
+   padding:0;
+
+  
 }
+
+
 
 .address,.contact span{
 	font-size:1.3rem;
@@ -50,8 +49,7 @@ footer{
 	padding:0.5rem;
 	border-top-right-radius:0.4rem;
 	border-top-left-radius:0.4rem;
-	left:35vw;
-	top:11.5vh;
+	
 	}
 
 .social-icons span i{
@@ -59,28 +57,7 @@ footer{
 	font-size:1rem; 
 	margin:0rem 1rem;
 }
-  	*{
-	
-	box-sizing: border-box;
-	text-transform: uppercase;
-	font-size:16px;
-	color:white;
-
-}
-
-button{
-	left:70%;
-	top:30%;
-	font-weight:bold !important;
-	background-color: #023eab;
-
-}
-
-footer{
-   background-color:#023eab;
-   padding:3rem;
-   padding-bottom:0;
-}
+  
 
 .address,.contact span{
 	font-size:1.3rem;
@@ -116,8 +93,6 @@ footer{
 
 
 @media (max-width: 600px){
-	button{
-	left:60%;
 	
 }
 
