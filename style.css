@@ -1,12 +1,18 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+
  *{
 	
 	box-sizing: border-box;
-	text-transform: uppercase;
 	font-size:16px;
 	color:white;
 	margin: 0;
 	padding:0;
 
+}
+ 
+img{
+	width:100%;
 }
 
 .bttn{
@@ -23,6 +29,7 @@
 .bttn:hover{
 	text-decoration:none;
 	color:white;
+	background-color:#005697;
 }
 
 
@@ -32,26 +39,17 @@ footer{
    background-color:#023eab;
    padding:2rem;
    padding-bottom:0;
-   
 }
 
-.address,.contact span{
+footer a{
+	text-decoration:none;
+	color:white;
 	font-size:1.3rem;
 }
-.address{
-	font-weight:200;
-}
 
-.contact{
-   font-weight:600;
-}
-
-.contact span i{
-	margin-right:0.5rem;
-	background-color:white;
-	padding:0.2rem;
-	border-radius:0.7rem;
-	color:#023eab;
+footer a:hover{
+	text-decoration:none;
+	color:#b9b4b4;
 }
 
 .social-icons{
@@ -63,48 +61,38 @@ footer{
 	top:11.5vh;
 	}
 
-.social-icons span i{
-	color:#023eab;
-	font-size:1rem; 
-	margin:0rem 1rem;
-}
- 
-img{
-	width:100%;
-}
-
 
 .address,.contact span{
 	font-size:1.3rem;
 }
 .address{
-	font-weight:300;
+	font-weight:200;
+	text-transform:capitalize;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .contact{
    font-weight:500;
+   text-transform:lowercase;
 }
 
 .contact span i{
 	margin-right:0.5rem;
 	background-color:white;
-	padding:0.4rem;
+	padding:0.3rem;
 	border-radius:0.9rem;
 	color:#023eab;
+	font-size:0.7rem; 
 }
 
-.social-icons{
-	background-color:white;
-	padding:0.5rem;
-	border-top-right-radius:0.4rem;
-	border-top-left-radius:0.4rem;
-	}
+
 
 .social-icons span i{
 	color:#023eab;
 	font-size:1rem; 
 	margin:0rem 1rem;
 }
+
 
 
 @media (max-width: 600px){
@@ -126,7 +114,7 @@ img{
 	top:20%;
 	font-size:0.8rem; 
 	padding:0.5rem 1rem 0.5rem 1rem;
-	border-radius:1rem;
+	border-radius:0.5rem;
 }
 
 }
